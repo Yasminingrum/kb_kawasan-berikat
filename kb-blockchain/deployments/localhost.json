@@ -1,0 +1,33 @@
+{
+  "network": "hardhat-local",
+  "chainId": 31337,
+  "timestamp": "2026-04-21T03:03:43.660Z",
+
+  "contracts": {
+    "MasterRegistry_v3":          "0x5fbdb2315678afecb367f032d93f642f64180aa3",
+    "KBContract_v3[KB-SBY-001]":  "0xa16E02E87b7454126E5E10d957A927A7F5B5d2be",
+    "KBContract_v3[KB-JKT-001]":  "0xB7A5bd0345EF1Cc5E66bf61BdeC17D2461fBd968"
+  },
+
+  "transactions": {
+    "deploy_MasterRegistry_v3":         "0x58d3faff82475e7d7d810da6c9dbfc0971d7ae2a3d06ae771b92cb7e9318709b",
+    "tambahPejabatBC":                  "0x208e9a5525a79138bf2593aaf58d6800571e40d940fd6eae5fd3596b99048b12",
+    "registerKawasanBerikat[KB-SBY-001]":"0xc6adfcbb8b81dc5bc528d11ccb97a21be43f4c06c6dbecf3f395d603581ee1b5",
+    "registerKawasanBerikat[KB-JKT-001]":"0x5f0377d4510da6bdccf9a31a393b7ab676efc3d1c951f284f39aa6398c1243e9"
+  },
+
+  "blocks": {
+    "1": "MasterRegistry_v3 deployed",
+    "2": "tambahPejabatBC",
+    "3": "registerKawasanBerikat KB-SBY-001",
+    "4": "registerKawasanBerikat KB-JKT-001"
+  },
+
+  "wallets": {
+    "DJBC":           "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+    "PejabatBC":      "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+    "OperatorKB_SBY": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc",
+    "OperatorKB_JKT": "0x90f79bf6eb2c4f870365e785982e1f101e93b906",
+    "AuditorDJP":     "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65"
+  }
+}

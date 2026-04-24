@@ -1,0 +1,42 @@
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+# ============================================================
+# kb-blockchain/.gitignore — Hardhat / Solidity
+# ============================================================
+
+# ── Node ─────────────────────────────────────────────────────
+node_modules/
+
+# ── Hardhat artifacts & cache ─────────────────────────────────
+artifacts/
+cache/
+typechain-types/
+
+# ── Ignition deployment state ────────────────────────────────
+ignition/deployments/
+
+# ── Secrets — JANGAN pernah di-commit! ───────────────────────
+.env
+.env.local
+scripts/serviceAccountKey.json
+scripts/setup.ts
+
+# ── Coverage ─────────────────────────────────────────────────
+coverage/
+coverage.json

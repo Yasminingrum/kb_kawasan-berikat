@@ -1,0 +1,77 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "barang_masuk",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "jenisDokumen", "order": "ASCENDING" },
+        { "fieldPath": "createdAt",    "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "barang_masuk",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "nomorPIB",  "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "barang_masuk",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "nomorTLDDP", "order": "ASCENDING" },
+        { "fieldPath": "createdAt",  "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "barang_keluar",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "jenisDokumen", "order": "ASCENDING" },
+        { "fieldPath": "createdAt",    "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "barang_keluar",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "nomorPEB",  "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "scrap",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "nomorBC25", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "pemusnahan",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "nomorBA",   "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "wip",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "status",    "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "bom",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "kodeFormula", "order": "ASCENDING" },
+        { "fieldPath": "createdAt",   "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
