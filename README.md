@@ -259,8 +259,3 @@ Buka http://localhost:5173 di browser, hubungkan MetaMask, dan pilih akun sesuai
 **"Bagaimana dengan scrap dan pemusnahan? Apakah ada jaminan tidak dimanipulasi?"**
 
 > Untuk scrap (BC 2.5), hash dokumen disimpan on-chain via `catatScrap()` dan saldo bahan baku berkurang secara atomik. Untuk pemusnahan (BA), hanya Pejabat BC yang bisa mencatatnya — ada mekanisme pemisahan wewenang (operator tidak bisa menginput pemusnahan sendiri). Kedua dokumen tidak pernah bisa dihapus dari Firestore (rules `allow delete: if false`) maupun dari blockchain (data on-chain bersifat immutable). Auditor dapat memverifikasi integritas setiap dokumen kapan saja lewat tombol "Verifikasi" di portal laporan.
-#   K B - K a w a s a n - B e r i k a t  
- #   K B - K a w a s a n - B e r i k a t  
- #   K B - K a w a s a n - B e r i k a t  
- #   K B - K a w a s a n - B e r i k a t  
- 
